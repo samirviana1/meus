@@ -38,7 +38,7 @@ const Signin = () => {
           onChange={(e) => [setEmail(e.target.value), setError("")]}
         />
         <Input
-          type="email"
+          type="password"
           placeholder="Digite sua senha"
           value={senha}
           onChange={(e) => [setSenha(e.target.value), setError("")]}

@@ -51,13 +51,13 @@ const Signup = () => {
         />
 
         <Input
-          type="email"
+          type="password"
           placeholder="Digite seu Senha"
           value={senha}
           onChange={(e) => [setSenha(e.target.value), setError("")]}
         />
         <C.labelError>{error}</C.labelError>
-        <Button Text="Inscrever-se" onclick={handleSignup} />
+        <Button Text="Inscrever-se" onClick={handleSignup} />
         <C.LabelSignup>
           Já tem uma conta?
           <C.Strong>
